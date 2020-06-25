@@ -1,0 +1,11 @@
+n=int(input())
+q=[]
+for i in range(n):
+     k=0
+     m=int(input())
+     for j in range(m):
+          if j%3==0 or j%5==0:
+             k=k+j
+     q.append(k)
+for i in q:
+    print(i)
